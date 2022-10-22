@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+head {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: #a05831;
+}
+    
+.header {
+    height: 80px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #a05831;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    margin-top: 5vh;
+    display: grid;
+    place-content: center;
+    column-gap: 15vw;
+    row-gap: 5vw;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item button img {
+    width: 150px;
+}
